@@ -11,6 +11,10 @@
    import LogoGithub from "carbon-icons-svelte/lib/LogoGithub.svelte";
 </script>
 
+<svelte:head>
+    <title>CodeFly: Share your code easily</title>
+</svelte:head>
+
 <Header company="Code" platformName="Fly" href="/">
   <HeaderUtilities>
     <HeaderActionLink
