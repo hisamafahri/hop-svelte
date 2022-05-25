@@ -409,6 +409,18 @@ callsites@^3.0.0:
   resolved "https://registry.yarnpkg.com/callsites/-/callsites-3.1.0.tgz#b3630abd8943432f54b3f0519238e33cd7df2f73"
   integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
 
+carbon-components-svelte@^0.64.1:
+  version "0.64.1"
+  resolved "https://registry.yarnpkg.com/carbon-components-svelte/-/carbon-components-svelte-0.64.1.tgz#581720d6e3477b0c3d379d52ab37d34070b1f2f3"
+  integrity sha512-FPy8dwVwZvAqjEHLtPdVvvOgsyOiGHXstZPUT5y/PZy+0RacR9PbcqtwFsd/0AyzKqlx7Wkqcnx/N2VBQxgr/w==
+  dependencies:
+    flatpickr "4.6.9"
+
+carbon-icons-svelte@^11.0.1:
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/carbon-icons-svelte/-/carbon-icons-svelte-11.0.1.tgz#65b09832e9e0fa899d631564323e92e6ab878930"
+  integrity sha512-0CCJLmHW3yJ8T9DM2HNGQx304b2VLGY13Xeg6T1cJWeU2oTPIvBbTfveChIULBBI9FIFGLB9m8ZZgeYWEjAAew==
+
 chalk@^4.0.0:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
@@ -883,6 +895,11 @@ flat-cache@^3.0.4:
   dependencies:
     flatted "^3.1.0"
     rimraf "^3.0.2"
+
+flatpickr@4.6.9:
+  version "4.6.9"
+  resolved "https://registry.yarnpkg.com/flatpickr/-/flatpickr-4.6.9.tgz#9a13383e8a6814bda5d232eae3fcdccb97dc1499"
+  integrity sha512-F0azNNi8foVWKSF+8X+ZJzz8r9sE1G4hl06RyceIaLvyltKvDl6vqk9Lm/6AUUCi5HWaIjiUbk7UpeE/fOXOpw==
 
 flatted@^3.1.0:
   version "3.2.5"

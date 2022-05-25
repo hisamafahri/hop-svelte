@@ -1,2 +1,33 @@
-<h1>Welcome to the Codefly</h1>
-<p>Please wait while we're building it</p>
+<script>
+  import {
+    Header,
+    Content,
+    Grid,
+    Row,
+    Column,
+    HeaderUtilities,
+    HeaderActionLink,
+  } from "carbon-components-svelte";
+   import LogoGithub from "carbon-icons-svelte/lib/LogoGithub.svelte";
+</script>
+
+<Header company="Code" platformName="Fly" href="/">
+  <HeaderUtilities>
+    <HeaderActionLink
+        icon="{LogoGithub}"
+        href="https://github.com/hisamafahri/codefly"
+        target="_blank"
+    />
+  </HeaderUtilities>
+</Header>
+
+<Content>
+  <Grid>
+    <Row>
+      <Column>
+        <h1>Welcome to CodeFly</h1>
+      </Column>
+    </Row>
+  </Grid>
+</Content>
+
