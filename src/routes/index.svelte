@@ -1,13 +1,21 @@
 <script>
-  import { Content, Grid, Row, Column } from "carbon-components-svelte";
+  import {
+    Content,
+    Grid,
+    Column,
+    TextArea,
+  } from "carbon-components-svelte";
 </script>
 
 <Content>
   <Grid>
-    <Row>
-      <Column>
-        <h1>Welcome to CodeFly</h1>
-      </Column>
-    </Row>
+    <Column>
+      <h1 style={"margin-bottom: 24px;"}>Let Your Codes Fly</h1>
+      <TextArea
+        labelText="Code Desription"
+        placeholder="Enter your code description..."
+        maxCount={512}
+      />
+    </Column>
   </Grid>
 </Content>

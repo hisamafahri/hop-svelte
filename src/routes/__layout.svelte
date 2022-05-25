@@ -5,7 +5,7 @@
     HeaderUtilities,
   } from "carbon-components-svelte";
   import LogoGithub from "carbon-icons-svelte/lib/LogoGithub.svelte";
-  import "carbon-components-svelte/css/white.css";
+  import "carbon-components-svelte/css/g100.css";
 </script>
 
 <svelte:head>
